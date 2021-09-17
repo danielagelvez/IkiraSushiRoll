@@ -1,0 +1,125 @@
+body{
+margin: 0%;
+padding: 0%;
+background-color: antiquewhite;
+}
+
+header img{
+
+    width: 100%;
+}
+
+.marco_img{
+
+    width: 70%;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.marco_img  img{
+
+    width: 100%;
+}
+
+.cuerpoCompleto{
+    width: 80%;
+    background-color: grey;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 2vh;
+    
+    
+}
+
+.contenido{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+
+    box-sizing: border-box;
+  
+}
+
+header{
+border-style: solid;
+border-width: 1px;
+border-color: greenyellow;
+}
+nav{
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 1%;
+}
+aside{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 1%;
+    padding: 5px;
+
+}
+section{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+article{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 1%;
+    padding: 5px;
+}
+
+footer{
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 1%;
+    padding: 5px;
+}
+
+
+/*estilos para tablets*/
+@media screen and (min-width:768px){
+
+
+
+}
+
+/*estilos para computadores*/
+@media screen and (min-width:1024px){
+
+
+
+}
+
+
+
+@media screen and (max-width:800px){
+.contenido{
+    display: block;
+}
+
+    section{
+
+    width: 100%;
+   }
+
+   aside{
+
+    width: 100%;
+   }
+}
+
