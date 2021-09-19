@@ -2,71 +2,37 @@ body{
 margin: 0%;
 padding: 0%;
 background-color: antiquewhite;
+font-family: "Roboto Mono";
 }
 
-header img{
-
-    width: 100%;
-}
-
-.marco_img{
-
-    width: 70%;
-    border-color: brown;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.marco_img  img{
-
-    width: 100%;
-}
-
-.cuerpoCompleto{
-    width: 80%;
-    background-color: grey;
-    max-width: 1000px;
-    margin: auto;
-    font-size: 2vh;
-    
-    
-}
 
 .contenido{
-
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-
-    box-sizing: border-box;
-  
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Mono";
+    font-size: 18px;
 }
 
 header{
-border-style: solid;
-border-width: 1px;
-border-color: greenyellow;
+    font-family: "Roboto Mono", monospace;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
 }
+
 nav{
     border-style: solid;
     border-width: 1px;
-    border-color: greenyellow;
+    border-color: black;
     margin: 1%;
 }
-aside{
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: greenyellow;
-    margin: 1%;
-    padding: 5px;
-
-}
+/*
 section{
-
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
     border-style: solid;
     border-width: 1px;
-    border-color: greenyellow;
+    border-color:blue;
     margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,22 +40,24 @@ section{
 }
 
 article{
-
+    font-family: "Roboto Mono", monospace;
     border-style: solid;
     border-width: 1px;
     border-color: greenyellow;
     margin: 1%;
     padding: 5px;
-}
+}*/
+
 
 footer{
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.95em;
     border-style: solid;
     border-width: 1px;
-    border-color: greenyellow;
+    border-color:violet;
     margin: 1%;
     padding: 5px;
 }
-
 
 /*estilos para tablets*/
 @media screen and (min-width:768px){
@@ -105,8 +73,6 @@ footer{
 
 }
 
-
-
 @media screen and (max-width:800px){
 .contenido{
     display: block;
@@ -121,5 +87,34 @@ footer{
 
     width: 100%;
    }
+}
+
+#barra1 {
+    font-size: larger;
+    background-color:salmon !important;
+    font-family: "Roboto Mono";
+}
+
+#barra2 {
+    background-color:salmon !important;
+
+}
+
+#ttitulo {
+    font-size: 30px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    font-family: "Roboto Mono";
+
+}
+
+
+
+.Contenido{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Mono";
+    font-size: 18px;
 }
 

@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="imagenes\sushi.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/miEstilo.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Ikira Sushi Roll</title>
 </head>
 <body>
@@ -15,31 +19,71 @@
             </div>
         </header>
 
-        <nav>
-            <ul>
-                <h1 align="center"   > INICIO</h1>
-                <li> <a href="nosotros.html">Nosotros</a>  </li>
-                <li> <a href="menu.html">Menú</a>  </li>
-                <li> <a href="contacto.html">Contáctanos</a>  </li>
-                <li> <a href="franquicias.html">Franquicias</a>  </li>
-            </ul>
-        </nav>
-    
-    <div class="Contenido">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " id="barra1">
+            <div class="container-fluid">
+
+                <!--icono del logo-->
+                <a class="navbar-brand" href="#"> <b>iKira Sushi roll</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!--barra-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menú
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="menuEntradas.html">Entradas</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="menu.html">Rollos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="menuBebidas.html">Bebidas</a></li>
+                            <li><hr class="dropdown-divider"></li>
+
+                        </ul>
+                        </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contáctanos</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="franquicias.html">Franquicias</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+
+    <div class="contenido">
         <section>
             <article>
-                
-                <h1>Bienvenidos a ikira Sushi roll</h1>
-                <p> Para nosotros es un privilegio poder ofrecerles un menú amplio, variado, con muchos sabores a escoger. Atrévete a disguartar rollos fusionados con un toque oriental</p>
+
+                <h1>Bienvenidos a iKira Sushi roll </h1>
+                <p> Para nosotros es un privilegio poder ofrecerles un menú amplio, variado, con muchos sabores a escoger. Atrévete a degustar nuestros rollos fusionados con un toque oriental</p>
             </article>
         </section>
 
 
     </div>
 
-        <footer>
-            <h4>www.IkiraSushiRoll.com</h4>
-        </footer>
+    <footer>
+        contactos@ikiraroll.com.co 2021 <a href="IkiraSushiRoll.html" target="_blank"></a>
+    </footer>
 
     </div>
 </body>
