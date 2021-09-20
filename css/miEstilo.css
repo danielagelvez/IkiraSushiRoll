@@ -15,46 +15,22 @@ font-family: "Roboto Mono";
 
 header{
     font-family: "Roboto Mono", monospace;
-    border-style: solid;
-    border-width: 1px;
-    border-color: greenyellow;
+   
+   
+  
 }
 
 nav{
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+
     margin: 1%;
 }
-/*
-section{
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:blue;
-    margin: 1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-}
-
-article{
-    font-family: "Roboto Mono", monospace;
-    border-style: solid;
-    border-width: 1px;
-    border-color: greenyellow;
-    margin: 1%;
-    padding: 5px;
-}*/
-
 
 footer{
     font-family: "Roboto Mono", monospace;
     font-size: 0.95em;
-    border-style: solid;
-    border-width: 1px;
-    border-color:violet;
+
     margin: 1%;
     padding: 5px;
 }
