@@ -5,6 +5,9 @@ background-color: antiquewhite;
 font-family: "Roboto Mono";
 }
 
+.fondito {
+    background-color: antiquewhite;
+}
 
 .contenido{
     display: flex;
@@ -15,9 +18,7 @@ font-family: "Roboto Mono";
 
 header{
     font-family: "Roboto Mono", monospace;
-   
-   
-  
+
 }
 
 nav{
